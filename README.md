@@ -24,8 +24,7 @@ The dataset, including physical activity data and PIU labels, is sourced from th
    - **Missing Data Handling**:
      - Regression-based imputation.
      - K-Nearest Neighbors (KNN) & random forest imputation.
-   - Refer to `2_Data_Preprocessing.ipynb`.  
-     - Output: 
+   - Refer to `2_Data_Preprocessing.ipynb`. Output: 
        - `dataset/train_re.csv` (regression-based imputation).
        - `dataset/train_rf.csv` (KNN & random forest imputation).
 
