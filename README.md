@@ -24,14 +24,13 @@ The dataset, including physical activity data and PIU labels, is sourced from th
    - **Missing Data Handling**:
      - Regression-based imputation.
      - K-Nearest Neighbors (KNN) & random forest imputation.
-   - Refer to `2_Data_Preprocessing.ipynb`.  
-     - Output: 
-       - `dataset/train_re.csv` (regression-based imputation).
-       - `dataset/train_rf.csv` (KNN & random forest imputation).
+   - Refer to `2_Data_Preprocessing.ipynb`. Output: 
+     - `dataset/train_re.csv` (regression-based imputation).
+     - `dataset/train_rf.csv` (KNN & random forest imputation).
 
 3. **Model Selection and Training**:
-   - **Ridge Regression**: Refer to `4_Ridge_Regression.ipynb`.
-   - **Gradient Boosting (LightGBM + XGBoost + CatBoost)**
+   - **Ridge Regression**: Refer to `3_Ridge_Regression.ipynb`.
+   - **Gradient Boosting (LightGBM + XGBoost + CatBoost)**: Refer to `4_Gradient_Boosting.ipynb`.
    - **Multilayer Perceptron (MLP)**: Refer to `5_MLP.ipynb`.
 
 4. **Evaluation**:
